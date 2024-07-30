@@ -1,0 +1,110 @@
+.age-group-page {
+   /* background-color:   #f9f9f9; */
+   background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+   text-align: center;
+    padding: 20px;
+  }
+  
+  .age-group-page p{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .age-group-page h1 {
+    font-family: 'Edu Australia VIC WA NT Hand', sans-serif;
+  font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .toy-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .toy-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .toy-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toy-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .toy-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .toy-item button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s;
+  }
+  
+  .toy-item button:hover {
+    background-color: #ff4500;
+  }
+  
+  .quantity-button {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: default;
+    margin-top: 10px;
+  }
+  .success-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  .star-rating {
+    display: inline-block;
+  }
+  
+  .star {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .star.gold {
+    color: gold;
+  }
+  
+  .star.white {
+    color: lightgray;
+  }
+  
+  

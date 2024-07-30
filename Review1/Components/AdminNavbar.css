@@ -1,0 +1,29 @@
+.admin-navbar {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .admin-navbar-section {
+    margin-bottom: 20px;
+  }
+  
+  .admin-profile {
+    margin-top: auto;
+  }
+  
+  .logout-button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #cc0000;
+  }
+  

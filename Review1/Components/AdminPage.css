@@ -1,0 +1,131 @@
+.admin-container {
+    padding: 20px;
+  }
+  
+  .admin-section {
+    margin-bottom: 30px;
+  }
+  
+  .admin-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .user-item, .product-item {
+    margin-bottom: 10px;
+  }
+  
+  .user-item span {
+    display: inline-block;
+    width: 150px;
+  }
+  
+  .product-item div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-item input {
+    margin-right: 10px;
+  }
+  
+  .product-item button {
+    margin-left: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .admin-container {
+    display: flex;
+  }
+  
+  .admin-main {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .admin-section {
+    margin-bottom: 20px;
+  }
+  
+  .user-item,
+  .product-item {
+    margin-bottom: 10px;
+  }
+  
+    /*   
+      h1, h2 {
+        text-align: center;
+        color: #333;
+      } */
+      
+  /* ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul li div {
+    display: flex;
+    align-items: center;
+  }
+  
+  ul li input[type="text"],
+  ul li input[type="number"] {
+    width: 150px;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .input-item label {
+    width: 150px;
+  }
+  
+  .input-item input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px; */
+  
