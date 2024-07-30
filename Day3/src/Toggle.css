@@ -1,0 +1,165 @@
+/* /* /* h2{
+    color: red;
+} */
+ /*
+ 
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Lightened background color for better contrast 
+  }
+  
+  .container {
+    width: 320px;
+    padding: 20px;
+    background-color: #ffffff; /* Clean white background */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+    text-align: center;
+  } */
+  
+  /* .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #toggle-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #toggle-container button {
+    background: none;
+    border: none;
+    color: #007bff; /* Link color */
+    /* margin: 0 5px; Add some spacing between the links */
+  /* } */
+  
+  /* #toggle-container button:hover {
+    color: #0056b3; /* Darker shade on hover */
+    /* text-decoration: none; */
+  /* } */ 
+  
+  /* .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  } */
+  
+  /* .form h2 {
+    margin-bottom: 20px;
+    font-size: 24px; /* Increased font size for better readability */
+  /* } */
+   
+  /* .form input {
+    margin-bottom: 12px; /* Increased margin for better spacing */
+    /* padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px; */
+    /* font-size: 16px; Increased font size for better readability */
+  /* } */
+   
+  /* .form button {
+    padding: 12px;
+    border: none;
+    background-color: #28a745; /* Green color for the submit button */
+    /* color: #ffffff; /* Text color */
+    /* cursor: pointer; */
+    /* border-radius: 6px; Slightly more rounded corners */
+    /* font-size: 16px; Increased font size */ 
+  /* } */
+   /* */ 
+  /* .form button:hover {
+    background-color: #218838; /* Darker green on hover */
+  /* }   */
+
+  .logincontainer {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    background:lavender;
+  }
+  .logincontainer2 {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    background:whitesmoke;
+  }
+  .loginform {
+    background: lightsalmon;
+    padding:100px;
+    border-radius: 15px;
+    height: 300px;
+    width: 200px;
+  }
+  .loginform2
+  {
+    background: plum;
+    padding:100px;
+    border-radius: 15px;
+    height: 300px;
+    width: 200px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  input {
+    /* width:100%; */
+    gap:20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .loginbutton {
+    width: 100%;
+    padding: 10px;
+    background:blue;
+    border: black;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  .loginb {
+    width: 100%;
+    padding: 10px;
+    /* background:b; */
+    border: black;
+    border-radius: 5px;
+    /* color: white; */
+    cursor: pointer;
+  }
+  .but1
+  {
+    color: white;
+    width: 100%;
+    padding: 10px;
+     background: green; 
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .lables
+  {
+    margin-left: 180px;
+    color: blueviolet;
+  }
+  .lables2 
+  {
+    margin-left: 70px;
+    color:black;
+  }
+  .loginh2
+  {
+    color: darkblue;
+    margin-left: 25px;
+  }
