@@ -1,0 +1,22 @@
+.about {
+    text-align: center;
+    padding: 50px 20px;
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ff6347;
+  }
+  
+  .about p {
+    font-size: 18px;
+    color: black;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
